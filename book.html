@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Book Interest — Sichuan Table</title>
+  <meta name="description" content="How booking works: steps, WhatsApp, email, and a simple interest form. Deposit only after written terms." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">ST</span>
+        <span class="brand-text">Sichuan Table</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="nav" id="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="trip.html">The Trip</a>
+        <a href="trust.html">Why Trust Us</a>
+        <a href="book.html" class="nav-cta" aria-current="page">Book interest</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Booking</span>
+        <h1>Express interest</h1>
+        <p class="lead">No pressure checkout. Tell us your dates; we send written terms before any deposit. Clear deposit/refund before you pay.</p>
+      </div>
+    </div>
+
+    <section>
+      <div class="container">
+        <h2 class="section-title">How booking works</h2>
+        <ol class="steps">
+          <li>
+            <h3>Reach out</h3>
+            <p>WhatsApp (number TBD—placeholder link below), email, or the interest form on this page. Share roughly when you want to travel and how many guests.</p>
+          </li>
+          <li>
+            <h3>We reply from Chengdu</h3>
+            <p>A real person confirms fit, answers questions, and outlines the 8–9 day Chengdu + Chongqing culinary &amp; local-life trip for your dates.</p>
+          </li>
+          <li>
+            <h3>Written terms first</h3>
+            <p>You receive inclusions/exclusions, price, cancel/refund rules, and partner license details. Read them. Ask changes. No payment yet.</p>
+          </li>
+          <li>
+            <h3>Deposit on familiar rails</h3>
+            <p>When you accept, deposit via planned Stripe/PayPal (confirmed in your terms). Trip confirms at 6 guests, max 10. Licensed agency runs the ground; Sichuan Table remains your booking contact.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="container trip-blurb">
+        <div>
+          <h2 class="section-title">Talk to us</h2>
+          <p class="section-sub">Prefer chat or email? Both work. We never ask for crypto or opaque personal bank wires without a contract.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="https://wa.me/" rel="noopener" target="_blank">WhatsApp (number TBD)</a>
+            <a class="btn btn-secondary" href="mailto:wenhongbiao10@gmail.com">wenhongbiao10@gmail.com</a>
+          </div>
+          <p class="fineprint">WhatsApp link is a placeholder until the business number is ready. Use email in the meantime.</p>
+          <div class="callout">
+            <strong>Model reminder:</strong> You book with Sichuan Table; a licensed Sichuan–Chongqing agency runs the ground. Partner license details published before you pay.
+          </div>
+        </div>
+        <div>
+          <div class="form-card">
+            <h2 class="section-title" style="font-size:1.25rem">Interest form</h2>
+            <p class="fineprint" style="margin-bottom:1rem">Opens your email app with a prefilled message to us—no backend, nothing stored on this site.</p>
+            <form id="interest-form" action="mailto:wenhongbiao10@gmail.com" method="post" enctype="text/plain">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" required autocomplete="name" />
+
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required autocomplete="email" />
+
+              <label for="guests">Number of guests</label>
+              <input id="guests" name="guests" type="number" min="1" max="10" placeholder="e.g. 2" />
+
+              <label for="dates">Preferred dates or month</label>
+              <input id="dates" name="dates" type="text" placeholder="e.g. April 2027" />
+
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Diet needs, panda interest, questions…"></textarea>
+
+              <button class="btn btn-primary" type="submit">Open email to send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2 class="section-title">Before you pay—checklist</h2>
+        <ul class="checklist">
+          <li>Written all-in vs not-included list</li>
+          <li>Cancel/refund rules in writing</li>
+          <li>Partner license details you can verify</li>
+          <li>No forced shopping in the program</li>
+          <li>Deposit method you recognize (Stripe/PayPal—planned)</li>
+        </ul>
+        <p style="margin-top:1.25rem"><a href="trust.html">Read the full trust page →</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>Sichuan Table</h3>
+          <p>Small-group culinary trips in Chengdu &amp; Chongqing—real food, clear pricing, no shopping traps.</p>
+        </div>
+        <div>
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="trip.html">The Trip</a></li>
+            <li><a href="trust.html">Why Trust Us</a></li>
+            <li><a href="book.html">Book interest</a></li>
+            <li><a href="medical.html">Medical escort note</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="mailto:wenhongbiao10@gmail.com">wenhongbiao10@gmail.com</a></li>
+            <li><a href="https://wa.me/" rel="noopener">WhatsApp (TBD)</a></li>
+            <li>@sichuantable</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>Based in Chengdu · English site</span>
+        <span>Hospital accompaniment is separate from tour bookings and is not medical advice.</span>
+      </div>
+    </div>
+  </footer>
+  <script src="site.js"></script>
+</body>
+</html>
